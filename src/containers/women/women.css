@@ -1,0 +1,117 @@
+.nstr__women {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nstr__women-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.nstr__women-feature .nstr__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.nstr__women-feature .nstr__features-container_feature-text {
+    max-width: 700px;
+}
+
+.nstr__women-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 2rem 0 2rem;
+}
+
+.nstr__women-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.nstr__women-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.nstr__women-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-items: baseline;
+
+    margin-top: 2rem;
+}
+
+.nstr__women-container img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 350px;
+    height: 350px;
+    margin: 2rem 2rem ;
+    background-color: #fff;
+}
+
+.nstr__women-container button {
+    display: flow-root;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 35px;
+    height: 35px;
+    margin: 2rem 4rem ;
+    font-size: 26px;
+    
+}
+
+.nstr__women-container p {
+    display: flex;
+    flex-direction: center;
+    color: #fff;
+    margin: 2rem 4rem;
+    align-items: center;
+    font-size: 26px;
+}
+
+.nstr__women-container .nstr__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 200px;
+    display: unset;
+    flex-direction: column;
+}
+
+
+.nstr__women-container .nstr__features-container_feature-text {
+    margin-top: 0.5rem;
+}
